@@ -1,0 +1,12 @@
+[
+  { "id": 1, "name": "Milk & Dairies",
+  "image": "https://nest-frontend-v6.vercel.app/assets/imgs/theme/icons/category-1.svg",
+   "color": "#ffe8cc" },
+  { "id": 2, "name": "Coffes & Teas","image": "https://nest-frontend-v6.vercel.app/assets/imgs/theme/icons/category-2.svg", "color": "#e0f7ff" },
+  { "id": 3, "name": "vegetables","image": "https://nest-frontend-v6.vercel.app/assets/imgs/theme/icons/category-3.svg", "color": "#f0fff0" },
+  { "id": 4, "name": "Pet Foods","image": "https://nest-frontend-v6.vercel.app/assets/imgs/theme/icons/category-4.svg", "color": "#fff0f0" },
+  { "id": 5, "name": "Beverages","image": "https://nest-frontend-v6.vercel.app/assets/imgs/theme/icons/category-5.svg", "color": "#f3fff3" },
+  { "id": 6, "name": "Snacks", "color": "#fff7ef" },
+  { "id": 7, "name": "Bakery", "color": "#fef5ff" }
+ 
+]

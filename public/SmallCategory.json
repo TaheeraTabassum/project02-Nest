@@ -1,0 +1,26 @@
+[
+    { "id": 1,
+     "name": "Cake & Milk",
+     "image":"https://i.ibb.co.com/9HgFfHdY/cat-2.png" , 
+      "item":60,
+     "color": "#FEEFEA" },
+  { "id": 2,
+   "name": "Organic Kiwi",
+   "image":"https://i.ibb.co.com/MDV8MRgK/cat-9.png" ,
+    "item":23, 
+    "color": "#FFFCEB" },
+  { "id": 3, "name": "Peach",
+  "image":"https://i.ibb.co.com/yB6r7s2Z/cat-11.png" ,
+   "item":34,
+   
+   "color": "#FEEFEA" },
+  { "id": 4, "name": "Vegetables", "image":"https://i.ibb.co.com/DggYXnPB/cat-1-1.png",
+   "item":50,  "color": "#F2FCE4" },
+    { "id": 5, "name": "Red Apple", "image":"https://i.ibb.co.com/RTPtqQcY/cat-4-1.png" , "item":70,  "color": "#FFF3FF" },
+  { "id": 6, "name": "Snack ", "image":"https://i.ibb.co.com/F4gsy5wH/cat-14.png" , "item":44,  "color": "#FFF3EB" },
+  { "id": 7, "name": "Pet Foods", "item":50, "image":"https://i.ibb.co.com/XZCw60BG/cat-3.png" ,  "color": "#FEEFEA" },
+  { "id": 8, "name": "Vegetables", "item":67, "image":"https://i.ibb.co.com/gFy6kDVF/cat-12.png" ,  "color": "#ECFFEC" },
+  { "id": 9, "name": "Custured", "item":34,
+   "image":" https://i.ibb.co.com/yB6r7s2Z/cat-11.png" ,  "color": "#FFFCEB" },
+  { "id": 10, "name": "Coffee","image":"https://i.ibb.co.com/XZCw60BG/cat-3.png" , "item":20,  "color": "#F2FCE4" }
+]

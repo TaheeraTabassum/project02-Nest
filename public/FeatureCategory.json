@@ -1,0 +1,6 @@
+[
+    { "id": 1, "name": "Cake & Milk", "color": "#ffe8cc" },
+  { "id": 2, "name": "Coffes & Teas", "color": "#e0f7ff" },
+  { "id": 3, "name": "Pet Foods", "color": "#f0fff0" },
+  { "id": 4, "name": "Vegetables", "color": "#fff0f0" }
+]
