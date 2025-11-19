@@ -19,7 +19,8 @@ const Banner = () => {
         <SwiperSlide>
           <div className="relative">
             <img
-              src="https://i.ibb.co.com/23KHz3tH/360-F-335745675-Max-Yx-Ssadrvi-Zd-Th-ITu-HB2o-Coh-YOiw-Eu.jpg"
+              src="
+https://i.ibb.co.com/BVkpHsWh/360-F-138994417-z9zjy-I1oy-S2o-Ggi-JOl-NOkt25-Wwj4-Uhc-K.jpg" 
               alt=""
               className="w-full object-cover rounded-lg hidden sm:block"
             />
@@ -75,8 +76,7 @@ const Banner = () => {
         <SwiperSlide>
           <div className="relative">
             <img
-              src="
-https://i.ibb.co.com/BVkpHsWh/360-F-138994417-z9zjy-I1oy-S2o-Ggi-JOl-NOkt25-Wwj4-Uhc-K.jpg"
+              src="https://i.ibb.co.com/23KHz3tH/360-F-335745675-Max-Yx-Ssadrvi-Zd-Th-ITu-HB2o-Coh-YOiw-Eu.jpg"
               alt=""
               className="w-full object-cover rounded-md hidden sm:block"
             />

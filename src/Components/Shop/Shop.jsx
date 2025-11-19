@@ -10,15 +10,14 @@ import NewProducts from '../NewProducts/NewProducts';
 import Countdown from '../Countdown/Countdown';
 import Banner2 from '../Shared/Banner2';
 import SmallCart from '../SmallCart/SmallCart';
-import ShopDeals from '../Countdown/ShopDeals';
-import useData from '../hook/useData';
+
 
 const Shop = () => {
     const [select, setSelect] = useState()
     const handleCategory = (id) => {
         setSelect(id);
     }
-    const {products}=useData()
+  
     return (
         <div>
             <SmallBanner
@@ -50,7 +49,7 @@ const Shop = () => {
             <div className='grid  px-4 lg:px-3  mx-auto container lg:grid-cols-12 grid-cols-1 gap-4'> 
                 <div className='col-span-10'>
                      <ShopCard select={select}></ShopCard>
-                      <ShopDeals products={products}></ShopDeals>
+                     
                  </div> 
                     <div className='lg:col-span-2 '> 
                         <ShopCategory handleCategory={handleCategory}></ShopCategory> 
