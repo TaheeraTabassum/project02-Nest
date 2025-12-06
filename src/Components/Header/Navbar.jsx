@@ -7,11 +7,13 @@ import headPhnImg from '../../assets/icon-headphone.svg';
 
 import hotImg from '../../assets/icon-hot.svg';
 import Header from './Header';
-import { NavLink } from 'react-router';
+import { Link, NavLink } from 'react-router';
+import { useSelector } from 'react-redux';
 
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
+const total  = useSelector(state => state.cart.totalQuantity);
   return (
     <div className=" border-b border-gray-300 bg-white">
       {/* Announcement Bar */}
@@ -64,10 +66,10 @@ const Navbar = () => {
           </div>
 
           {/* Cart */}
-          <div className="relative">
+          <Link to="/Cart"><div className="relative">
             <FiShoppingCart className="text-2xl" />
-            <span className="absolute -top-2 -right-2 bg-[#3BB77E] text-white text-xs rounded-full px-[6px]">2</span>
-          </div>
+            <span className="absolute -top-2 -right-2 bg-[#3BB77E] text-white text-xs rounded-full px-[6px]">{total}</span>
+          </div></Link>
 
           {/* Account (desktop only) */}
           <div className="hidden md:flex items-center gap-1">
